@@ -10,7 +10,7 @@ import DetalleCliente from './components/DetalleCliente';
 
 
 function App() {
-
+  
   return (
     <BrowserRouter>
       <Routes>

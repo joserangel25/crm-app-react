@@ -20,7 +20,7 @@ const DetalleCliente = () => {
       setCargando(false)
     } else {     
       const getClienteById = async () => {
-        const res = await fetch(`http://localhost:4000/clientes/${id}`);
+        const res = await fetch(`${import.meta.env.VITE_URL_API}/${id}`);
         console.log(res)
         if(res.ok){
           const infoCLiente = await res.json();

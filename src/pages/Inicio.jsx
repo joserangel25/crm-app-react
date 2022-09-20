@@ -7,25 +7,20 @@ const Inicio = () => {
   const [ clientes, setClientes ] = useState([]);
   const [ mensaje, setMensaje ] = useState('');
 
-  const url = 'http://localhost:4000/clientes';
+  const url = import.meta.env.VITE_URL_API;
   const location = useLocation();
-
-  const [ statePath, setStatePath ] = useState({});
   
   useEffect(() => {
     const getData = async () => {
       try {
         const res = await fetch(url);
         const data = await res.json();
-        // console.log(data)
         setClientes(data);
       } catch (error) {
         console.log(error)
       }
     }
     getData();
-    // console.log(location)
-
   }, []);
 
   useEffect(() => {
@@ -44,8 +39,6 @@ const Inicio = () => {
           setMensaje('');
         }, 1500);
       }
-
-      // document.querySelector('#scroller').scroll(0,0)
 
     }
 

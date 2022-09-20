@@ -25,7 +25,7 @@ const Formulario = ({cliente, cargando}) => {
   });
 
   const handleSubmit = async (datos) => {
-     const url = 'http://localhost:4000/clientes';
+     const url = import.meta.env.VITE_URL_API;
     try {
       let res;
       if(cliente.id){
