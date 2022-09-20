@@ -1,0 +1,44 @@
+{
+  "clientes": [
+    {
+      "nombre": "JOSE RANGEL",
+      "empresa": "JOSE y ABOGADOS",
+      "email": "correo@corre.co",
+      "telefono": "3107483399",
+      "notas": "CLIENTE BUSCA PLATA",
+      "id": 3
+    },
+    {
+      "nombre": "Yesid Gomez",
+      "empresa": "KBAY EM",
+      "email": "correo@corre.co",
+      "telefono": "3994802884",
+      "notas": "CLIENTE BUSCA PLATA",
+      "id": 4
+    },
+    {
+      "nombre": "ALIX Andrea",
+      "empresa": "uñas y acrilicos",
+      "email": "a@a.com",
+      "telefono": "3990298849",
+      "notas": "busca acrilico para las uñas",
+      "id": 6
+    },
+    {
+      "nombre": "EDUARDO",
+      "empresa": "uñas y acrilicos",
+      "email": "pd@pe.com",
+      "telefono": "30092399403",
+      "notas": "dfdasfasdfasd",
+      "id": 7
+    },
+    {
+      "nombre": "yerly",
+      "empresa": "kbay em",
+      "email": "kbay@em.co",
+      "telefono": "3439393434",
+      "notas": "si si si",
+      "id": 9
+    }
+  ]
+}
